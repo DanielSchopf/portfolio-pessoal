@@ -1,0 +1,47 @@
+.navbar {
+    position: fixed;
+    background: linear-gradient(to right, #003366, #006699);
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid #012A4A;
+    padding: 10px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-link {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f9fdff;
+    margin: 0 20px;
+    font-size: 18px;
+}
+
+.navbar-link:hover {
+    color: #cfcfcf;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.navbar-contato {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 15px 25px;
+    border: unset;
+    border-radius: 15px;
+    color: #ffffff;
+    background: #ffb703;
+    font-weight: 1000;
+    font-size: 17px;
+    transition: all 250ms;
+    margin-right: 50px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-contato:hover {
+    background: #fb8500;
+    color: #ffffff;
+    cursor: pointer;
+}

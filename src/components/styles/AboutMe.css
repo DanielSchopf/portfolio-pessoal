@@ -48,3 +48,44 @@
     font-size: 20px;
     text-align: justify;
   }
+
+/* Responsive Styles */
+  
+@media (max-width: 768px) {
+  .sobre-mim-cont {
+    flex-direction: column; 
+    gap: 20px; 
+    margin-top: 0;
+  }
+
+  .sobre-mim-img {
+    max-width: 75%; 
+  }
+
+  .sobre-mim-texto {
+    margin-top: 0;
+    text-align: center; 
+  }
+
+  .sobre-mim-texto h2 {
+    font-size: 2rem; 
+  }
+
+  .sobre-mim-texto p {
+    font-size: 1rem; 
+  }
+}
+
+@media (max-width: 480px) {
+  .sobre-mim {
+    padding: 20px 10px; 
+  }
+
+  .sobre-mim-texto h2 {
+    font-size: 1.8rem;
+  }
+
+  .sobre-mim-texto p {
+    font-size: 0.9rem; 
+  }
+}

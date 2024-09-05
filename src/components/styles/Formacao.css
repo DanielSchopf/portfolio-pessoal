@@ -50,3 +50,38 @@
     text-align: justify;
 }
 
+/* Responsive Styles */
+
+@media (max-width: 768px) {
+    .formacao-cont {
+      flex-direction: column; 
+      gap: 20px; 
+    }
+  
+    .formacao-texto {
+      margin-top: 0;
+      text-align: center; 
+    }
+  
+    .curso-acad {
+      font-size: 2rem; 
+    }
+  
+    .formacao-texto p {
+      font-size: 1rem; 
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .formacao {
+      padding: 20px 10px; 
+    }
+  
+    .curso-acad {
+      font-size: 1.8rem;
+    }
+  
+    .formacao-texto p {
+      font-size: 0.9rem; 
+    }
+  }

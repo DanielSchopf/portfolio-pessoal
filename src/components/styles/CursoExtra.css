@@ -77,3 +77,43 @@
     font-size: 20px;
     color: #333;
 }
+
+/* Responsive Styles */
+
+@media (max-width: 768px) {
+    .formacao-texto p {
+      font-size: 1rem;
+      text-align: center;
+    }
+  
+    .cards-container {
+      flex-direction: column;
+      gap: 10px; 
+    }
+  
+    .card {
+      max-width: 85%; 
+    }
+  
+    .curso-extra {
+      font-size: 2rem; 
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .formacao-extra {
+      padding: 20px 10px; 
+    }
+  
+    .curso-extra {
+      font-size: 1.8rem; 
+    }
+  
+    .formacao-texto p {
+      font-size: 0.9rem; 
+    }
+  
+    .card-content {
+      font-size: 0.875rem; 
+    }
+  }

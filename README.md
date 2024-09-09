@@ -19,5 +19,5 @@ Este repositório está em constante mudança então algumas funcionalidades pod
 Para rodar este projeto localmente, siga estes passos:
 1. Clone o repositório: `git clone [URL do Repositório]`
 2. Navegue até a pasta do projeto e instale as dependências: `npm install`
-3. Inicie o servidor de desenvolvimento: `npm start`
+3. Inicie o servidor de desenvolvimento: `npm run dev`
 4. Acesse http://localhost:3000 no seu navegador.
